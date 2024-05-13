@@ -1,7 +1,7 @@
 ;; Personal Emacs Configuration - Last Edit: 2024-05-07
 
 (setq inhibit-startup-screen t)                    ; don't use the splashscreen
-
+(add-to-list 'default-frame-alist '(fullscreen . maximized)) ; maximise emacs on startup
 
 (setopt x-underline-at-descent-line nil)           ; Prettier underlines
 
