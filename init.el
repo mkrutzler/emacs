@@ -26,3 +26,9 @@
 ;; clients, file templates and snippets.
 (setq user-full-name "Mark Krutzler"
       user-mail-address "mark.krutzler@icloud.com")
+
+
+;; setup org folders & files for mac (comment out the stuff you don't need
+
+(setq org-agenda-files '("~/org"
+			 "~/Documents/school/s2024/s2024.org"))
